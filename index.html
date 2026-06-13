@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="style.css">
+
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+        </style>
+</head>
+<body>
+
+    <div id="container">
+
+        <div id="entryplace">
+
+               <textarea id="inputplace" placeholder="What needs to be done?"></textarea> <!-- we use textarea for large or multiline input rater than using textbox-->
+               <br>
+               <button id="add" onclick="addtolist()">Add Task</button>
+
+        </div>
+
+            
+        <div id="showplace">
+
+            <ul>
+                
+            </ul>
+
+        </div>
+
+    </div>
+     
+    
+    <script src="script.js"></script>
+</body>
+</html>
