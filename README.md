@@ -2,4 +2,4 @@
 
  [click here for demo](https://neelanshshukla.github.io/to-do-app/)
 
- ![screenshot image](to do app.png)
+ ![screenshot](to do app.png)
